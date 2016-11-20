@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto|Open+Sans');
 
 html, body {
 	/*Overrides auto margin & paddings by browsers*/
@@ -9,32 +9,41 @@ html, body {
 	width: 100%;
 }
 
-#nav_bar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 7.5px 0;
-
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1.1em;
-    text-align: right; /*Puts nav bar to right of page*/
+.nav_bar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 8%;
+  transition: 0.5s;
+  background-color: transparent;
 }
 
-#nav_bar li {
+.nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 7px 0 10px 0;
+    text-align: right; /*puts nav bar on right*/
+
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.nav_bar li {
     display: inline-block;
     padding: 10px;
 }
 
-#nav_bar li a {
+.nav_bar li a {
   text-decoration: none;
   color: white;  
-  padding: 10px 0;
+  padding: 5px 0; /*underline's distance from text*/
   background: linear-gradient(to left, white, white) no-repeat bottom left;
-  background-size: 0% 3px;
-  transition: 0.3s;
+  background-size: 0% 2px; /*width of underline*/
+  transition: 0.5s;
 }
 
-#nav_bar li a:hover {
+.nav_bar li a:hover {
   background-size: 100% 2px
 }
 
@@ -45,7 +54,7 @@ html, body {
     height: 90%;
     width: 100%;
     overflow: hidden;
-    background: url('../images/applestinted.jpg'); /*https://www.flickr.com/photos/106103661@N02/10397073603/in/album-72157648008079417/*/
+    background: url('../images/apples.jpg'); /*https://www.flickr.com/photos/106103661@N02/10397073603/in/album-72157648008079417/*/
     background-position: center center;
     background-size: cover;
 }
@@ -60,12 +69,47 @@ html, body {
 .appleFestTitle { 
    font-family: 'Droid Sans', sans-serif;
    font-weight: 700;
-   font-size: 7em;
+   font-size: 5em;
    color: white;
    position: absolute;
+   width: 80%; /*width of appleFestTitle div = 80% of width of its container (titleSection)*/
+   text-align: center;
+
+   left: 50%; /*Moves left edge of appleFestTitle to 50% of containing div (titleSection)*/
    top: 45%;
-   left: 50%;
-   -moz-transform: translateX(-50%) translateY(-45%);
-   -webkit-transform: translateX(-50%) translateY(-45%);
-    transform: translateX(-50%) translateY(-45%);
+   -moz-transform: translateX(-50%) translateY(-50%);
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%); /*Translate x: offsets by 50% of width of bounding box (
+   element for which style is being applied- appleFestTitle box)*/
+}
+
+.appleFestSubtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.35em;
+  color: white;
+}
+
+.about {
+  padding: 5% 5%;
+  background-color: rgb(247, 247, 247);
+}
+
+.title {
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  color: rgb(102, 102, 102);
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: rgb(128, 128, 128);
+}
+
+img {
+  width: 500px;
 }
