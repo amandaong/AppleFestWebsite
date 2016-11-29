@@ -11,17 +11,19 @@ $(document).ready(function(){
        }
    });
 
-   /*Decided not to do show div but saving code for another func that n2 implement*/
-   /*$('.day').addClass("hidden");
-
-        $('.day').click(function() {
-            var $this = $(this);
-
-            if ($this.hasClass("hidden")) {
-                $(this).removeClass("hidden").addClass("visible");
-
-            } else {
-                $(this).removeClass("visible").addClass("hidden");
-            }
-  });*/
 });
+
+function allEventsBtnPressed() {
+  $('.tr').addClass("hidden");
+
+ /* $('.tr').click(function() {
+    var $this = $(this);
+
+    if ($this.hasClass("hidden")) {
+      $(this).removeClass("hidden").addClass("visible");
+
+    } else {
+      $(this).removeClass("visible").addClass("hidden");
+    }
+  });*/
+}

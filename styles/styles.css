@@ -99,9 +99,21 @@ html, body {
   color: white;
 }
 
+.mainPageSection {
+  padding: 5% 11.8%;
+}
+
+.mainPageImage {
+  margin-top: 3%;
+
+}
+
 .about {
-  padding: 5% 5%;
   background-color: rgb(247, 247, 247);
+}
+
+.map {
+  background-color: rgb(252, 252, 252);
 }
 
 .title {
@@ -115,8 +127,12 @@ html, body {
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.1em;
   color: rgb(128, 128, 128);
+}
+
+.description {
+  margin-top: 3%;
 }
 
 img {
@@ -160,12 +176,12 @@ img {
   display: inline-block;
 }
 
-.hidden> .schedule {
+.hidden> .tr {
     display:none;
 }
 
-.visible> .schedule {
-    display:block;
+.visible> .tr {
+    display:table-row;
 }
 
 /*------------------------ TABLE ------------------------*/
@@ -176,6 +192,8 @@ img {
   border: 2px;
   font-size:22px;
   width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .tg td { /*cells*/
