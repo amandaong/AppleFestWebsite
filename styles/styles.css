@@ -9,6 +9,7 @@ html, body {
 	width: 100%;
 }
 
+/*---- HOME PAGE ----*/
 .nav_bar {
   position: fixed;
   z-index: 1;
@@ -118,6 +119,7 @@ img {
   width: 100%;
 }
 
+/*---- EVENTS PAGE ----*/
 .eventsTitleSection {
   top: 0;
   left: 0;
@@ -138,7 +140,7 @@ img {
   font-weight: 700;
   font-size: 3em;
   color: rgb(102, 102, 102);
-  padding: 2%;
+  padding: 5% 11.8%;
   display: block;
 }
 
@@ -154,6 +156,94 @@ img {
   display: inline-block;
 }
 
+<<<<<<< HEAD
+
+=======
+.hidden> .schedule {
+    display:none;
+}
+
+.visible> .schedule {
+    display:block;
+}
+
+/*---- TABLE ----*/
+.tg {
+  border-collapse:collapse;
+  border-spacing:0;
+  border-color: rgb(231,231,231);
+  border: 2px;
+  font-size:22px;
+  width: 100%;
+}
+
+.tg td { /*cells*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  color: rgb(102,102,102);
+
+  padding:12px 5px;
+  border-style:solid;
+  border-width:0px;
+  border-bottom-width: 1px;
+  border-color: rgb(231,231,231);
+  overflow:hidden;
+  word-break:normal;
+  vertical-align: text-top;
+}
+
+.tg th {
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(102,102,102);
+
+  padding:12px 5px;
+  border-style:solid;
+  border-width:0px;
+  border-bottom-width: 1px;
+  border-color: rgb(231,231,231);
+  overflow:hidden;
+  word-break:normal;
+  vertical-align: text-top;
+}
+
+.tableTitle {
+  font-weight: 700;
+}
+
+.italic{ 
+  font-style: italic; 
+  padding-right: 4px;
+}
+
+.table_description{
+  font-size: 18px;
+}
+
+.space {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+  margin-top: 15px; 
+}
+
+.cell-time {
+  width: 150px; /*n2use pixels to keep width uniform for Thusrday & Friday table*/
+}
+
+.cell-time.cell-last { /*styles div with cell-time AND cell-last*/
+  border-bottom-width: 0px;
+
+}
+
+.cell-descript.cell-last { /*styles div with cell-descript AND cell-last*/
+  border-bottom-width: 0px;
+}
+>>>>>>> 660d2117ed6e3e23652565e82c4100728a3f76a3
+
+
+/*---- FOOD PAGE ----*/
 .foodTitleSection {
   top: 0;
   left: 0;
@@ -210,7 +300,5 @@ img {
     display: block;
     float: left;
 }
-
-
 
 

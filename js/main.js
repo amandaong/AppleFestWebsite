@@ -11,4 +11,18 @@ $(document).ready(function(){
           $('.titleSection .nav_bar').css('background-color', 'transparent');
        }
    });
+
+   /*Decided not to do show div*/
+   /*$('.day').addClass("hidden");
+
+        $('.day').click(function() {
+            var $this = $(this);
+
+            if ($this.hasClass("hidden")) {
+                $(this).removeClass("hidden").addClass("visible");
+
+            } else {
+                $(this).removeClass("visible").addClass("hidden");
+            }
+  });*/
 });
