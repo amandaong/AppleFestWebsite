@@ -301,6 +301,64 @@ img {
     float: left;
 }
 
+/*------------------------ Craft PAGE ------------------------*/
+.craftTitleSection {
+  top: 0;
+  left: 0;
+  height: 90%;
+  width: 100%;
+  overflow: hidden;
+  background: url('../images/cider.jpg'); /*https://www.flickr.com/photos/106103661@N02/21406193973/in/album-72157657274645113/*/
+  background-position: center center;
+  background-size: cover;
+}
+
+.craftTitle {
+    font-size: 1.1em;
+}
+
+.craftList p {
+  padding: 10% 26% 10%;
+  color: rgb(80, 80, 80);
+}
+
+.sign {
+  width: 70%;
+  margin: 10% 15% 10%;
+}
+
+.craftItem {
+  display: block;
+    overflow: hidden;
+    background: rgba(206, 206, 206, 0.15);
+    width: 80%;
+    margin: 3% 10%;
+}
+
+.craftItem .title {
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: rgb(88, 88, 88);
+    width: 40%;
+    text-align: left;
+    padding: 7% 5% 2%;
+    display: block;
+    float: left;
+}
+
+.craftImage {
+    width: 50%;
+    float: left;
+}
+
+.craftItem p {
+    padding: 0 5% 0;
+    width: 40%;
+    display: block;
+    float: left;
+}
+
 /*------------------------ BUTTONS FOR EVENTS PAGE ------------------------*/
 button {
   display: inline-block;
