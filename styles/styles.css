@@ -246,8 +246,7 @@ img {
 }
 >>>>>>> 660d2117ed6e3e23652565e82c4100728a3f76a3
 
-
-/*---- FOOD PAGE ----*/
+/*------------------------ FOOD PAGE ------------------------*/
 .foodTitleSection {
   top: 0;
   left: 0;
@@ -305,22 +304,20 @@ img {
     float: left;
 }
 
-
+/*------------------------ BUTTONS FOR EVENTS PAGE ------------------------*/
 button {
   display: inline-block;
   margin: 0 10px 0 0;
   padding: 15px 45px;
-  font-size: 48px;
+  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  line-height: 1.8;
-  appearance: none;
+  line-height: 1;
   box-shadow: none;
   border-radius: 0;
 
   color: #fff;
-  background-color: #EEEEEE;
-  text-shadow: -1px 1px #8C8C8C;
+  background-color: rgb(128,128,128);
   border: none;
 }
 

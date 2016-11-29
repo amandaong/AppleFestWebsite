@@ -11,7 +11,7 @@ $(document).ready(function(){
        }
    });
 
-   /*Decided not to do show div*/
+   /*Decided not to do show div but saving code for another func that n2 implement*/
    /*$('.day').addClass("hidden");
 
         $('.day').click(function() {
