@@ -27,26 +27,26 @@
       </div>
         <div>
             <div class = "day oddDay"> Thursday 
-                <div class = "time"> 6pm-12pm</div>
+                <div class = "time"> September 29th</div>
                 <div class = "schedule"> 
                     <?php include "scripts/EventsScheduleThursday.php" ?> 
                  </div>
             </div> 
             <div class = "day"> Friday 
                 <button onclick="allEventsBtnPressed()"> All Events </button>
-                <div class = "time"> 12pm - 6pm</div> 
+                <div class = "time"> September 30th</div> 
                 <div class = "schedule"> 
                   <?php include "scripts/EventsScheduleFriday.php" ?> 
                 </div>         
             </div>
             <div class = "day oddDay"> Saturday 
-                <div class = "time"> 10am - 6pm</div> 
+                <div class = "time"> October 1st </div> 
                  <div class = "schedule"> 
                   <?php include "scripts/EventsScheduleSaturday.php" ?> 
                 </div>  
             </div>
             <div class = "day"> Sunday 
-                <div class = "time"> 10am - 6pm</div>
+                <div class = "time"> October 2nd</div>
                 <div class = "schedule"> 
                   <?php include "scripts/EventsScheduleSunday.php" ?> 
                 </div> 
