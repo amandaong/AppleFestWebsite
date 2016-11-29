@@ -9,7 +9,7 @@ html, body {
 	width: 100%;
 }
 
-/*---- HOME PAGE ----*/
+/*------------------------ HOME PAGE ------------------------*/
 .nav_bar {
   position: fixed;
   z-index: 1;
@@ -43,7 +43,11 @@ html, body {
   transition: 0.5s;
 }
 
-.nav_bar li a:hover {
+.nav_bar li a.currentPage {
+  background-size: 100% 2px;
+}
+
+.nav_bar li a.otherPages:hover { /*makes underline under words*/
   background-size: 100% 2px
 }
 
@@ -119,7 +123,7 @@ img {
   width: 100%;
 }
 
-/*---- EVENTS PAGE ----*/
+/*------------------------ EVENTS PAGE ------------------------*/
 .eventsTitleSection {
   top: 0;
   left: 0;
@@ -164,7 +168,7 @@ img {
     display:block;
 }
 
-/*---- TABLE ----*/
+/*------------------------ TABLE ------------------------*/
 .tg {
   border-collapse:collapse;
   border-spacing:0;
@@ -190,7 +194,7 @@ img {
   vertical-align: text-top;
 }
 
-.tg th {
+.tg th { /*header cell styling*/
   font-family: 'Droid Sans', sans-serif;
   font-weight: 700;
   text-align: left;
@@ -225,16 +229,39 @@ img {
   margin-top: 15px; 
 }
 
-.cell-time {
-  width: 150px; /*n2use pixels to keep width uniform for Thusrday & Friday table*/
+.cell-time { 
+  width: 170px; /*Width of time cell. N2use pixels to keep width uniform for all tables (% will be based on size of specific day's (i.e Friday's) div)*/
 }
 
-.cell-time.cell-last { /*styles div with cell-time AND cell-last*/
+.cell-time.cell-last { /*styles div with cell-time AND cell-last. Removes line on bottom of table*/
   border-bottom-width: 0px;
 
 }
 
-.cell-descript.cell-last { /*styles div with cell-descript AND cell-last*/
+.cell-descript.cell-last { /*styles div with cell-descript AND cell-last. Removes line on bottom of table*/
   border-bottom-width: 0px;
 }
+
+button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px 45px;
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+
+  color: #fff;
+  background-color: #EEEEEE;
+  text-shadow: -1px 1px #8C8C8C;
+  border: none;
+}
+
+button:focus {
+  outline: none
+}
+
 

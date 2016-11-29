@@ -2,7 +2,6 @@ $(document).ready(function(){
    var scroll_start = 0;
    var titleSectOffSetHeight = $('.titleSection').outerHeight(true);
    var navBarOffSetHeight = $('.titleSection .nav_bar').outerHeight(true); /*returns element height + height of padding + height of border + height of margin*/
-   console.log(navBarOffSetHeight);
    $(document).scroll(function() { 
       scroll_start = $(window).scrollTop();
       if(scroll_start > titleSectOffSetHeight - navBarOffSetHeight -10) {
