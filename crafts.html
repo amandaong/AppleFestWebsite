@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
     <head>
         <title>Apple Fest Website: Events </title>

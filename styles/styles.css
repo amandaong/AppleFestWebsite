@@ -160,9 +160,6 @@ img {
   display: inline-block;
 }
 
-<<<<<<< HEAD
-
-=======
 .hidden> .schedule {
     display:none;
 }
@@ -244,7 +241,7 @@ img {
 .cell-descript.cell-last { /*styles div with cell-descript AND cell-last. Removes line on bottom of table*/
   border-bottom-width: 0px;
 }
->>>>>>> 660d2117ed6e3e23652565e82c4100728a3f76a3
+
 
 /*------------------------ FOOD PAGE ------------------------*/
 .foodTitleSection {
