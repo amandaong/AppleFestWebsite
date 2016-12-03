@@ -16,7 +16,6 @@
                 <li> <a href="events.php" class="currentPage">SCHEDULE OF EVENTS</a> </li>
                 <li> <a href="food.html" class="otherPages">FOOD</a> </li>
                 <li> <a href="crafts.html" class="otherPages">CRAFT SHOW</a> </li>
-                <li> <a href="transportation.html" class="otherPages">TRANSPORTATION</a> </li> 
                 </ul>
             </div> 
             
@@ -33,7 +32,6 @@
                  </div>
             </div> 
             <div class = "day"> Friday 
-                <button onclick="allEventsBtnPressed()"> All Events </button>
                 <div class = "time"> September 30th</div> 
                 <div class = "schedule"> 
                   <?php include "scripts/EventsScheduleFriday.php" ?> 

@@ -15,40 +15,40 @@ html, body {
   z-index: 1;
   width: 100%;
   height: 8.02%;
-  background-color: rgba(126, 201, 237,1);
+  background-color: rgb(240, 67, 60);
 }
 
 .nav_bar ul {
     list-style-type: none;
     margin: 0;
-    padding: 7px 0 10px 0;
+    padding: 0.5% 0 0.5% 0;
     text-align: right; /*puts nav bar on right*/
 
     font-family: 'Droid Sans', sans-serif;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 110%;
 }
 
 .nav_bar li {
     display: inline-block;
-    padding: 10px;
+    padding: 0.784%;
 }
 
 .nav_bar li a {
   text-decoration: none;
   color: white;  
-  padding: 5px 0; /*underline's distance from text*/
+  padding: 5px 0; /*underline's distance from text. must keep as pixels*/
   background: linear-gradient(to left, white, white) no-repeat bottom left;
-  background-size: 0% 2px; /*width of underline*/
+  background-size: 0% 8%; /*width of underline*/
   transition: 0.5s;
 }
 
 .nav_bar li a.currentPage {
-  background-size: 100% 2px;
+  background-size: 100% 8%;
 }
 
 .nav_bar li a.otherPages:hover { /*makes underline under words*/
-  background-size: 100% 2px
+  background-size: 100% 8%;
 }
 
 .titleSection .nav_bar {
@@ -78,7 +78,7 @@ html, body {
 .appleFestTitle { 
    font-family: 'Droid Sans', sans-serif;
    font-weight: 700;
-   font-size: 5em;
+   font-size: 500%;
    color: white;
    position: absolute;
    width: 80%; /*width of appleFestTitle div = 80% of width of its container (titleSection)*/
@@ -95,7 +95,7 @@ html, body {
 .appleFestSubtitle {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 0.35em;
+  font-size: 35%;
   color: white;
 }
 
@@ -105,6 +105,7 @@ html, body {
 
 .mainPageImage {
   margin-top: 3%;
+  width: 100%;
 
 }
 
@@ -116,10 +117,14 @@ html, body {
   background-color: rgb(252, 252, 252);
 }
 
+.transportation {
+  background-color: rgb(247, 247, 247);
+}
+
 .title {
   font-family: 'Droid Sans', sans-serif;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 300%;
   color: rgb(102, 102, 102);
   text-align: center;
 }
@@ -127,7 +132,7 @@ html, body {
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 110%;
   color: rgb(128, 128, 128);
 }
 
@@ -135,15 +140,43 @@ p {
   margin-top: 3%;
 }
 
-img {
-  width: 100%;
+/*------------------------ FOOTER ------------------------*/
+footer {
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center; /*ensures text inside footer & ul is centered*/
+}
+
+.footerTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  color: rgb(128, 128, 128);
+  padding: 0.5% 0 0.1% 0; 
+}
+
+.footerImage {
+  height: 40px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0.5% 0;
+
+}
+
+footer li {
+  display: inline-block;
+  padding: 0.784% 2%;
 }
 
 /*------------------------ EVENTS PAGE ------------------------*/
 .eventsTitleSection {
   top: 0;
   left: 0;
-  height: 90%;
+  height: 50%;
   width: 100%;
   overflow: hidden;
   background: url('../images/crowdzoomed.jpg'); /*https://www.flickr.com/photos/106103661@N02/10397073603/in/album-72157648008079417/*/
@@ -152,13 +185,13 @@ img {
 }
 
 .eventsTitle{
-  font-size: 1.1em;
+  font-size: 100%;
 }
 
 .day {
   font-family: 'Droid Sans', sans-serif;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 300%;
   color: rgb(102, 102, 102);
   padding: 5% 11.8%;
   display: block;
@@ -172,16 +205,8 @@ img {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: rgb(128,128,128);
-  font-size: 0.55em;
+  font-size: 55%;
   display: inline-block;
-}
-
-.hidden> .tr {
-    display:none;
-}
-
-.visible> .tr {
-    display:table-row;
 }
 
 /*------------------------ TABLE ------------------------*/
@@ -190,7 +215,7 @@ img {
   border-spacing:0;
   border-color: rgb(231,231,231);
   border: 2px;
-  font-size:22px;
+  font-size: 45.8%;
   width: 100%;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -202,7 +227,7 @@ img {
   text-align: left;
   color: rgb(102,102,102);
 
-  padding:12px 5px;
+  padding: 1.232032854% 0.514%;
   border-style:solid;
   border-width:0px;
   border-bottom-width: 1px;
@@ -218,7 +243,7 @@ img {
   text-align: left;
   color: rgb(102,102,102);
 
-  padding:12px 5px;
+  padding: 1.232032854% 0.514%;
   border-style:solid;
   border-width:0px;
   border-bottom-width: 1px;
@@ -238,13 +263,13 @@ img {
 }
 
 .table_description{
-  font-size: 18px;
+  font-size: 82%;
 }
 
 .space {
   display: block; /* makes it have a width */
   content: ""; /* clears default height */
-  margin-top: 15px; 
+  margin-top: 1.913265306%; 
 }
 
 .cell-time { 
@@ -265,7 +290,7 @@ img {
 .foodTitleSection {
   top: 0;
   left: 0;
-  height: 90%;
+  height: 50%;
   width: 100%;
   overflow: hidden;
   background: url('../images/cider.jpg'); /*https://www.flickr.com/photos/106103661@N02/21406193973/in/album-72157657274645113/*/
@@ -274,12 +299,18 @@ img {
 }
 
 .foodTitle {
-  	font-size: 1.1em;
+  	font-size: 100%;
 }
 
 .foodList p {
-	padding: 10% 26% 10%;
+	padding: 5% 20% 3%;
 	color: rgb(80, 80, 80);
+  text-align: center;
+}
+
+.nextLine {
+  display: block;
+  margin-top: 1%;
 }
 
 .sign {
@@ -323,7 +354,7 @@ img {
 .craftTitleSection {
   top: 0;
   left: 0;
-  height: 90%;
+  height: 50%;
   width: 100%;
   overflow: hidden;
   background: url('../images/cider.jpg'); /*https://www.flickr.com/photos/106103661@N02/21406193973/in/album-72157657274645113/*/
@@ -332,12 +363,13 @@ img {
 }
 
 .craftTitle {
-    font-size: 1.1em;
+    font-size: 100%;
 }
 
 .craftList p {
-  padding: 10% 26% 10%;
+  padding: 5% 20% 3%;
   color: rgb(80, 80, 80);
+  text-align: center;
 }
 
 .sign {
@@ -375,27 +407,6 @@ img {
     width: 40%;
     display: block;
     float: left;
-}
-
-/*------------------------ BUTTONS FOR EVENTS PAGE ------------------------*/
-button {
-  display: inline-block;
-  margin: 0 10px 0 0;
-  padding: 15px 45px;
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1;
-  box-shadow: none;
-  border-radius: 0;
-
-  color: #fff;
-  background-color: rgb(128,128,128);
-  border: none;
-}
-
-button:focus {
-  outline: none
 }
 
 
