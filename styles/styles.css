@@ -113,7 +113,7 @@ html, body {
   background-color: rgb(247, 247, 247);
 }
 
-.map {
+.map { /*Apple Fest Map*/
   background-color: rgb(252, 252, 252);
 }
 
@@ -139,6 +139,12 @@ p {
 .description {
   margin-top: 3%;
 }
+
+#googleMap { /*Google map showing where Apple Fest is*/
+   width: 100%;
+   height: 400px;
+   background-color: rgb(102, 102, 102);
+ }
 
 /*------------------------ FOOTER ------------------------*/
 footer {
@@ -284,7 +290,6 @@ footer li {
 .cell-descript.cell-last { /*styles div with cell-descript AND cell-last. Removes line on bottom of table*/
   border-bottom-width: 0px;
 }
-
 
 /*------------------------ FOOD PAGE ------------------------*/
 .foodTitleSection {
