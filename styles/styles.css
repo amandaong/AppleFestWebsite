@@ -15,7 +15,7 @@ html, body {
   z-index: 1;
   width: 100%;
   height: 8.02%;
-  background-color: rgb(240, 67, 60);
+  background-color: rgba(230, 16, 10, 0.9);
 }
 
 .nav_bar ul {
