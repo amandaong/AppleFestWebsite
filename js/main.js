@@ -15,3 +15,12 @@ $(document).ready(function(){
 
 });
 
+function map_flip(index) {
+    "use strict";
+    // variables
+    var map_images = ["map.jpg", "map_craftshow.jpg", "map_commons.jpg", "map_food.jpg", "map_stage.jpg", "map_park.jpg", "map_allay.jpg", "map_rest.jpg"],
+        map_image = document.getElementById('map');
+    // procedural code
+    map_image.src = 'images/' + map_images[index];
+}
+
