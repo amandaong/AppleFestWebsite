@@ -112,8 +112,13 @@ html, body {
   background-color: rgb(247, 247, 247);
 }
 
-.map { /*Apple Fest Map*/
+/*------------------------ HOME PAGE: APPLE FEST MAP ------------------------*/
+.map { 
   background-color: rgb(252, 252, 252);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 108%;
+  color: rgb(128, 128, 128);
 }
 
 .map ul {
@@ -162,6 +167,7 @@ html, body {
     color:white;
 }
 
+/*------------------------ HOME PAGE: TRANSPORTATION ------------------------*/
 .transportation {
   background-color: rgb(247, 247, 247);
 }
@@ -459,7 +465,7 @@ footer li {
     float: left;
 }
 
-
+/*------------------------ Crafts PAGE: Mobile ------------------------*/
 @media screen and (max-width: 720px) {
     p {
       font-size: 40%;
