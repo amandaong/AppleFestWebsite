@@ -10,5 +10,3 @@ function initMap() {
     map: map
   });
 }
-
-initMap();
