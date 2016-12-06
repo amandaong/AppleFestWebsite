@@ -125,6 +125,7 @@ html, body {
 
 .map li{
   margin: 15px 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .map img {
