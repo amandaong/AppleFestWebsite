@@ -106,7 +106,6 @@ html, body {
 .mainPageImage {
   margin-top: 3%;
   width: 100%;
-
 }
 
 .about {
@@ -115,6 +114,52 @@ html, body {
 
 .map { /*Apple Fest Map*/
   background-color: rgb(252, 252, 252);
+}
+
+.map ul {
+  list-style-type: none;
+  margin-left: 65%;
+  margin-top: 5%;
+  margin-bottom: 30%;
+}
+
+.map li{
+  margin: 15px 0;
+}
+
+.map img {
+  float: left;
+  width: 65%;
+  position: relative;
+}
+
+#craftshow:hover {
+    background-color: #F90E1B;
+    color:white;
+}
+#commons:hover {
+    background-color: #F09826;
+    color:white;
+}
+#west:hover {
+    background-color: #2BAB3F;
+    color:white;
+}
+#stage:hover {
+    background-color: #1AA1E5;
+    color:white;
+}
+#park:hover {
+    background-color: #B5AA23;
+    color:white;
+}
+#allay:hover {
+    background-color: #8659A0;
+    color:white;
+}
+#rest:hover {
+    background-color: #E00E52;
+    color:white;
 }
 
 .transportation {
@@ -412,6 +457,58 @@ footer li {
     width: 40%;
     display: block;
     float: left;
+}
+
+
+@media screen and (max-width: 720px) {
+    p {
+      font-size: 40%;
+    }
+    .map img {
+      width: 100%;
+    }
+    .map ul {
+      margin-top: 85%;
+      margin-bottom: 10%;
+      margin-left: 0;
+      padding-left: 5%;
+    }
+    .map li {
+      margin: 10px, 0;
+    }
+    .title {
+      font-size: 200%;
+    }
+    .eventsTitle{
+      font-size: 60%;
+    }
+    .foodTitle{
+      font-size: 60%;
+    }
+    .foodItem .title {
+        font-size: 1em;
+        padding: 7% 5% 1%;
+    }
+    .foodItem p {
+        padding: 0 2% 0;
+        width: 40%;
+        font-size: 0;
+    }
+    .craftTitle{
+      font-size: 60%;
+    }
+    .craftItem .title {
+        font-size: 1em;
+        padding: 7% 5% 1%;
+    }
+    .craftItem p {
+        padding: 0 2% 0;
+        width: 40%;
+        font-size: 0;
+    }
+    .tg{
+      font-size: 20%;
+    }
 }
 
 
