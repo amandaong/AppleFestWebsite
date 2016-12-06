@@ -130,6 +130,7 @@ html, body {
 
 .map li{
   margin: 15px 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .map img {
@@ -465,8 +466,13 @@ footer li {
     float: left;
 }
 
+<<<<<<< HEAD
 /*------------------------ Crafts PAGE: Mobile ------------------------*/
 @media screen and (max-width: 720px) {
+=======
+
+@media screen and (max-width: 480px) {
+>>>>>>> 0e6c3e96fd4bb056fed63e17dbbbc5839e7eb0e6
     p {
       font-size: 40%;
     }
