@@ -5,7 +5,7 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(window).scrollTop();
       if(scroll_start > titleSectOffSetHeight - navBarOffSetHeight) {
-          $('.nav_bar').css('background-color', 'rgba(230, 16, 10, 0.9)'); /*must do .titleSection .nav_bar to specify nav_bar on home page b/c changing color of nav_bar only applies to home page nav_bar*/
+          $('.nav_bar').css('background-color', 'rgba(230, 16, 10, 0.901961)'); /*must do .titleSection .nav_bar to specify nav_bar on home page b/c changing color of nav_bar only applies to home page nav_bar*/
           $('.nav_bar').css('box-shadow', '1px 1px rgba(200,200,200,1)'); /*offset shadow by 1px to right, by 1px below nav bar, color*/
        } else {
           $('.nav_bar').css('background-color', 'rgba(230, 16, 10, 0)');
