@@ -2,7 +2,7 @@
 <html lang="en">
     
     <head>
-        <title>Apple Fest Website: Events </title>
+        <title> Apple Fest Website: Events </title>
         <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
         <link rel="stylesheet" href="styles/styles.css" type="text/css"/>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>        
