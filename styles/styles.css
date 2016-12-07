@@ -200,10 +200,16 @@ p {
 
 /*------------------------ FOOTER ------------------------*/
 footer {
+  background-color: rgb(247, 247, 247);
   position: relative;
   top: 0;
   left: 0;
   text-align: center; /*ensures text inside footer & ul is centered*/
+  padding: 1.5% 0 1.5% 0;
+}
+
+.homeFooter {
+  background-color: white;
 }
 
 .footerTitle {
@@ -211,7 +217,7 @@ footer {
   font-weight: 400;
   font-size: 100%;
   color: rgb(128, 128, 128);
-  padding: 0.5% 0 0.1% 0; 
+  padding: 0;
 }
 
 .footerImage {
@@ -221,13 +227,14 @@ footer {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding: 0 0 0.5% 0;
-
+  padding: 0;
 }
 
 footer li {
   display: inline-block;
-  padding: 0.784% 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
 }
 
 /*------------------------ EVENTS PAGE ------------------------*/
@@ -267,7 +274,7 @@ footer li {
   display: inline-block;
 }
 
-/*------------------------ TABLE ------------------------*/
+/*------------------------ EVENTS PAGE: TABLE ------------------------*/
 .tg {
   border-collapse:collapse;
   border-spacing:0;
@@ -407,7 +414,7 @@ footer li {
     float: left;
 }
 
-/*------------------------ Craft PAGE ------------------------*/
+/*------------------------ CRAFTS SHOW PAGE ------------------------*/
 .craftTitleSection {
   top: 0;
   left: 0;
@@ -466,13 +473,30 @@ footer li {
     float: left;
 }
 
-<<<<<<< HEAD
-/*------------------------ Crafts PAGE: Mobile ------------------------*/
-@media screen and (max-width: 720px) {
-=======
+/*------------------------ Design for MOBILE ------------------------*/
 
 @media screen and (max-width: 480px) {
->>>>>>> 0e6c3e96fd4bb056fed63e17dbbbc5839e7eb0e6
+    /*------------------------ HOME PAGE ------------------------*/
+    .nav_bar {
+      height: 6%;
+    }
+
+    .nav_bar ul {
+      font-size: 100%;
+    }
+
+    .titleSection {
+      height: 50%;
+    }
+
+    .appleFestTitle {
+      font-size: 200%;
+    }
+
+    .appleFestSubtitle {
+      font-size: 50%;
+    }
+
     p {
       font-size: 40%;
     }
@@ -491,9 +515,13 @@ footer li {
     .title {
       font-size: 200%;
     }
+
+    /*------------------------ EVENTS PAGE ------------------------*/
     .eventsTitle{
       font-size: 60%;
     }
+
+    /*------------------------ FOOD PAGE ------------------------*/
     .foodTitle{
       font-size: 60%;
     }
@@ -506,6 +534,8 @@ footer li {
         width: 40%;
         font-size: 0;
     }
+
+    /*------------------------ CRAFTS SHOW PAGE ------------------------*/
     .craftTitle{
       font-size: 60%;
     }

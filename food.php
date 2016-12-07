@@ -11,8 +11,8 @@
          <div class="nav_bar">
                 <ul> <li> <a href="index.html" class="otherPages">HOME</a> </li>
                 <li> <a href="events.php" class="otherPages">SCHEDULE OF EVENTS</a> </li>
-                <li> <a href="food.html" class="currentPage">FOOD</a> </li>
-                <li> <a href="crafts.html" class="otherPages">CRAFT SHOW</a> </li>
+                <li> <a href="food.php" class="currentPage">FOOD</a> </li>
+                <li> <a href="crafts.php" class="otherPages">CRAFT SHOW</a> </li>
                 </ul>
         </div> 
             
@@ -58,7 +58,8 @@
     	<img class="sign" alt = "sign" src="images/foodsign.jpg"> <!--https://www.flickr.com/photos/106103661@N02/21839168880/in/album-72157657274645113/-->
     	
     </div>
-     
+    
+    <?php include "includes/footer.php" ?> 
 
 </body>
 </html>

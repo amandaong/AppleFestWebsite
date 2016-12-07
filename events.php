@@ -14,8 +14,8 @@
             <div class="nav_bar">
                 <ul> <li> <a href="index.html" class="otherPages">HOME</a> </li>
                 <li> <a href="events.php" class="currentPage">SCHEDULE OF EVENTS</a> </li>
-                <li> <a href="food.html" class="otherPages">FOOD</a> </li>
-                <li> <a href="crafts.html" class="otherPages">CRAFT SHOW</a> </li>
+                <li> <a href="food.php" class="otherPages">FOOD</a> </li>
+                <li> <a href="crafts.php" class="otherPages">CRAFT SHOW</a> </li>
                 </ul>
             </div> 
             
@@ -50,5 +50,7 @@
                 </div> 
             </div>
         </div>
+
+        <?php include "includes/footer.php" ?> 
     </body>
 </html>
